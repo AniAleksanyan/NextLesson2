@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "id": 101,
+            "name": "Tiko",
+            "age": 29,
+            "salary": 20000000
+        },
+        {
+            "id": 102,
+            "name": "Armen",
+            "age": 20,
+            "salary": 30000000
+        },
+        {
+            "id": 103,
+            "name": "Marine",
+            "age": 30,
+            "salary": 40000000
+        },
+        {
+            "id": 104,
+            "name": "Mariam",
+            "age": 25,
+            "salary": 20000000
+        },
+        {
+            "id": 105,
+            "name": "Karen",
+            "age": 26,
+            "salary": 5550000000
+        }, 
+        {
+            "id": 106,
+            "name": "Maria",
+            "age": 27,
+            "salary": 2033000000
+        }
+    ]
+}
