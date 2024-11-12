@@ -11,14 +11,8 @@ export const getUsers = async():Promise<IUser[]> => {
     return JSON.parse(result) as IUser[]
 }
 
-export const getUser = async(id: number):Promise<IUser[]> => {
-    const result = await fs.readFile("app/data.json", "utf-8")
-    
-    if(!result){
-        return []
-    }
+export const getUser = async(id: number):Promise<IUser|undefined> => {
+    const response = await getUsers();
 
-    const users = JSON.parse(result)
-
-    return users.users.filter((user: { id: number }) => (user.id == id));
+    return response.find((user: { id: number }) => (user.id == id));
 }   
